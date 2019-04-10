@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Introduction.Layoutintro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_dark"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorButtonNormal"
+                android:text="LINEAR LAOUT:"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:background="@android:color/holo_green_light"
+
+                android:text="LinearLayout is a view group that aligns
+all children in a single direction of two things (vertically) or (horizontally).The
+code for Linear Layout is -> (Go to XML AND Remove Constraint layout from(android to constraint layout and write LinearLayout)),And for Vertical and Horizontal just write orientation and then select your choise."
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="RELATIVE LAYOUT:"
+                android:textColor="@android:color/holo_blue_dark"
+
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+
+                android:background="@android:color/holo_orange_light"
+                android:text="RelativeLayout is a view group that displays child views in relative positions.Enables you to specify the location of child objects relative to each other (child A to the left of child B) or to the parent (aligned to the top of the parent).
+The code for Relative Layout is -> (Go to XML AND Remove Constraint layout from(android to constraint layout and write RelativeLayout))"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_dark"
+
+                android:text="Building Layouts with an Adapter:"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ListView:"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp"></TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
+
+                android:text="ListView is a view group that displays a list of scrollable items. The list items are automatically inserted to the list using an Adapter that pulls content from a source such as an array or database query and converts each item result into a view that's placed into the list." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Grid Layout:"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_green_light"
+
+                android:text="GridView is a ViewGroup
+            that displays items in a two-dimensional, scrollable grid. The grid items are automatically inserted to the layout using a ListAdapter." />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

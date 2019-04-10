@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Android_Program.PRograms">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/background_dark">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_Toast"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+
+                android:background="@drawable/round_button"
+                android:text="Toast"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_TextView"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:background="@drawable/round_button"
+
+
+                android:text="TextView"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_EditText"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+
+
+                android:background="@drawable/round_button"
+
+
+                android:text="EditText"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_button"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Button"
+                android:textColor="@android:color/holo_blue_dark"
+
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_Splash"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Splash"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_Radio"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Radio Button"
+                android:textColor="@android:color/holo_blue_dark"
+
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_Check"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Check Box"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_Listview"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="List View"
+                android:textColor="@android:color/holo_blue_dark"
+
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_ratingbar"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Rating bar"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_Grid"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Grid View"
+                android:textColor="@android:color/holo_blue_dark"
+
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_spinner"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Spinner"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_Image"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Image View"
+                android:textColor="@android:color/holo_blue_dark"
+
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_timepicker"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Time Picker"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_datepicker"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Date Picker"
+                android:textColor="@android:color/holo_blue_dark"
+
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_webview"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Web View"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_Notification"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Notification"
+                android:textColor="@android:color/holo_blue_dark"
+
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_intent"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Intent"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

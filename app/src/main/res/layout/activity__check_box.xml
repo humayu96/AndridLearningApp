@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Android_Program.Activity_CheckBox">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:id="@+id/checkxml"
+            android:src="@drawable/check_xml"
+            android:layout_gravity="center"
+
+            />
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:id="@+id/Checklayout"
+            android:src="@drawable/check_layout"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+
+            />
+
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:id="@+id/checkcode"
+            android:src="@drawable/check_code"
+            android:layout_marginTop="20dp"
+
+            android:layout_gravity="center"
+
+            />
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:id="@+id/checkresult"
+            android:src="@drawable/checkbox_result"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+
+            />
+    </LinearLayout>
+    </ScrollView>
+
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/pak"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+
+        <!--android:layout_marginTop="116dp"-->
+        <!--android:text="Pakistan"-->
+        <!--android:textSize="20dp" />-->
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/Ind"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="194dp"-->
+
+        <!--android:onClick="check"-->
+        <!--android:text="India"-->
+        <!--android:textSize="20dp" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btn_chk"-->
+        <!--android:text="Submit"-->
+        <!--android:layout_below="@+id/Ind"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/check_text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:layout_alignEnd="@+id/pak"-->
+
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="156dp"-->
+        <!--android:onClick="check"-->
+        <!--android:text="You Are from ?"-->
+        <!--android:textSize="20dp" />-->
+
+</RelativeLayout>

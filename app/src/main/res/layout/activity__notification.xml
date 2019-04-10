@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Android_Program.Activity_Notification">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+
+            >
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:id="@+id/notifyxml"
+                android:src="@drawable/notificationxml"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:id="@+id/notifycode"
+                android:src="@drawable/notifcationcode"
+                android:layout_gravity="center"
+
+                />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:id="@+id/notifyresult"
+                android:src="@drawable/editnotifyresult"
+                android:layout_gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:id="@+id/notifyresultt"
+                android:src="@drawable/notificationresultt"
+                android:layout_gravity="center"
+
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

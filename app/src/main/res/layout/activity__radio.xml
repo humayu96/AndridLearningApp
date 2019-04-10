@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Android_Program.Activity_Radio">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:id="@+id/radioxml"
+            android:src="@drawable/radio_xml"
+            android:layout_gravity="center"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:id="@+id/radiolayout"
+            android:layout_marginTop="20dp"
+
+            android:src="@drawable/radio_layout"
+            android:layout_gravity="center"
+
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:id="@+id/radiocode"
+
+            android:layout_marginTop="20dp"
+
+            android:src="@drawable/radio_code"
+            android:layout_gravity="center"
+
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/radioresultf"
+            android:layout_marginTop="20dp"
+
+            android:src="@drawable/radio_fresult"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/radioresults"
+            android:layout_marginTop="20dp"
+
+            android:src="@drawable/radio_sresult"
+
+            />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+    <!--<RadioGroup-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:id="@+id/radoigroup1"-->
+        <!--&gt;-->
+    <!--<RadioButton-->
+        <!--android:id="@+id/radio_name"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:text="Name"-->
+        <!--android:textSize="20dp" />-->
+
+
+    <!--<RadioButton-->
+        <!--android:id="@+id/radio_lastname"-->
+        <!--android:layout_width="wrap_content"-->
+
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:text="Last Name"-->
+        <!--android:textSize="20dp" />-->
+
+
+    <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:id="@+id/radio_age"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"-->
+
+        <!--android:textSize="20dp"-->
+        <!--android:text="Age"-->
+        <!--/>-->
+    <!--</RadioGroup>-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Submit"-->
+        <!--android:id="@+id/button_submit"-->
+        <!--android:layout_below="@+id/radoigroup1"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="50dp"-->
+
+        <!--/>-->
+</RelativeLayout>

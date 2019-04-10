@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+
+    android:layout_height="match_parent"
+    tools:context=".Android_Program.Activity_DatePicker">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/date_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_marginTop="10dp"
+
+        android:src="@drawable/datexml"
+
+        />
+
+
+        <ImageView
+            android:id="@+id/date_code"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/datecode"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/date_result"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/dateresult"
+
+            />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+    <!--<DatePicker-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/dateset"-->
+        <!--&gt;</DatePicker>-->
+
+</RelativeLayout>

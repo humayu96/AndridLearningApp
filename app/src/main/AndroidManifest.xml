@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.darkdeveloper.andridlearningapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Nav_Main"
+            android:label="@string/title_activity_nav__main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Introduction.Main_Introduction" />
+        <activity android:name=".Android_Program.PRograms" />
+        <activity android:name=".Introduction.Layoutintro" />
+        <activity android:name=".Introduction.Widgetintro" />
+        <activity android:name=".Introduction.Databaseintro" />
+        <activity android:name=".Introduction.AcFragintro" />
+        <activity android:name=".Android_Program.Activity_TextView" />
+        <activity android:name=".Android_Program.Activity_Toast" />
+        <activity android:name=".Android_Program.Activty_EditText" />
+        <activity android:name=".Android_Program.Activity_Button" />
+        <activity android:name=".Android_Program.Activity_Splash" />
+        <activity android:name=".Android_Program.Activity_Radio" />
+        <activity android:name=".Android_Program.Activity_CheckBox" />
+        <activity android:name=".Android_Program.Activity_RatingBar" />
+        <activity android:name=".Android_Program.Activity_ListView" />
+        <activity android:name=".Android_Program.Activity_Spinner" />
+        <activity android:name=".Android_Program.Activity_GridView" />
+        <activity android:name=".Android_Program.Activity_ImageView" />
+        <activity android:name=".Android_Program.Activity_TimePicker" />
+        <activity android:name=".Android_Program.Activity_DatePicker" />
+        <activity android:name=".Android_Program.Activity_transition1" />
+        <activity android:name=".Android_Program.Activity_transition2" />
+        <activity android:name=".Android_Program.Activity_WebView" />
+        <activity android:name=".Android_Program.Activity_Notification" />
+        <activity android:name=".Android_Program.Activity_Intent" />
+        <activity android:name=".Android_Program.Activty_SendDataother"></activity>
+    </application>
+
+</manifest>

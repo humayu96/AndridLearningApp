@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+
+    tools:context=".Introduction.Main_Introduction">
+
+    <Button
+        android:id="@+id/layout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:background="@drawable/round_button"
+        android:text="ANDROID LAYOUTS" />
+
+    <Button
+        android:id="@+id/widgtess"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:layout_marginTop="165dp"
+        android:background="@drawable/round_button"
+        android:text="ANDROID WIDGETS" />
+
+    <Button
+        android:id="@+id/database"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="197dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:background="@drawable/round_button"
+        android:text="ANDROID DATABASE" />
+
+
+    <Button
+        android:id="@+id/actifrag"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:layout_marginBottom="107dp"
+        android:background="@drawable/round_button"
+        android:text="ACTIVITIES AND (FRAGMNETS)" />
+
+</RelativeLayout>
